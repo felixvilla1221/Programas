@@ -18,4 +18,11 @@ model.addAttribute("Hola", "Titulo");
 return null;	
 }
 
+
+@GetMapping("home")
+public String salvar(Model model) {
+model.addAttribute("Hola", "Titulo");	
+return null;	
+}
+
 }
